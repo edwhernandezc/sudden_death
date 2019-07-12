@@ -33,8 +33,27 @@ def retornar_mayormenor(li):
                 me = li[x]
     return [ma, me]
 
+
 lista = carga_lista()
 rango = retornar_mayormenor(lista)
 print("Mayor elemento de la lista:", rango[0])
 print("Mayor elemento de la lista:", rango[1])
 # Fin tercer y cuarto punto
+
+
+# Sexto punto
+list = []
+
+
+def triangular(x, y):
+    ty = y(y + 1) / 2
+    if ty == x:
+        return list.append(x)
+
+def sumList(list):
+    sum = 0
+    for element in list:
+        sum = element + sum
+    return sum
+
+# final sexto punto
